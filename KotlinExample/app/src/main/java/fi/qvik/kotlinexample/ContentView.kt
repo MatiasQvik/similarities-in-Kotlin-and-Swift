@@ -60,7 +60,7 @@ fun ContentView(
                     Text(text = name.value)
             }
         }
-        Button(onClick = {goToSecondView}) {
+        Button(onClick = {goToSecondView(name.value)}) {
             Text(text = "Next View")
         }
     }
