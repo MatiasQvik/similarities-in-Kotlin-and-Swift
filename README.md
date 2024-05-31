@@ -1,1 +1,1 @@
-# Practices in similarities between Kotlin & Swift
+# Comparing similarities between Kotlin & Swift
