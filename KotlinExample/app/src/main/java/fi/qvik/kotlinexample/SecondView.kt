@@ -9,7 +9,7 @@ import androidx.compose.runtime.Composable
 fun SecondView(name: String,
                goBack: () -> Unit) {
     Column {
-        Text(text = "Second")
+        Text(text = name)
         Button(onClick = { goBack() }) {
             Text(text = "Back")
             
